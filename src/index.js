@@ -29,7 +29,7 @@ function getLanguage(language) {
     return languages[language];
   } else {
     console.error(
-      `'${language}' Language not supported. See 'tran --languages'.`
+      `'${language}' Language not supported. See 'translate --languages'.`
     );
     process.exit(1);
   }
