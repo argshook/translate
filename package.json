@@ -1,0 +1,33 @@
+{
+  "name": "@argshook/translate",
+  "version": "1.0.0",
+  "private": false,
+  "description": "A simple Google Translate CLI Tool",
+  "main": "bin/index.js",
+  "author": "Arijus Šukys <argshook@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "google",
+    "translate",
+    "cli"
+  ],
+  "bin": {
+    "translate": "bin/index.js"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^8.0.0",
+    "yargs": "^17.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argshook/translate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/argshook/translate/issues"
+  },
+  "homepage": "https://github.com/argshook/translate#readme"
+}
